@@ -1,0 +1,34 @@
+{
+  "language_en": {
+    "About Me": "My name is Marcelo, I am a FullStack developer and entrepreneur.\nI have been involved with programming since I was 15 years old, that is, 6 years as an enthusiast and 3 years as a professional in the field.\nMy native language is Portuguese (Brazil), I also speak English, Spanish, and I am learning Russian. Привет, мир!\nI decided to create this website to compile my professional portfolios, personal projects, and also to talk a little about myself.\nAlthough my focus is on programming and coding, I also like to improve other important skills, such as secure communication and effective feedback. I also have skills in other areas: Video Editing and Creation, E-Commerce, Marketing, Practical Teaching, among others."
+  },
+  "language_pt": {
+    "About Me": "Meu nome é Marcelo, sou desenvolvedor FullStack e empreendedor.\nEu estou envolvido com programação desde os 15 anos, isto é, 6 anos como entusiasta e 3 anos como profissional na área.\nMeu idioma nativo é Português (Brasil), sei falar também Inglês, Espanhol e estou aprendendo Russo. Привет, мир!\nDecidi criar este site para compilar meus portfólios profissionais, projetos pessoais e também falar um pouco sobre mim.\nApesar do meu foco ser em programação é código, gosto de aprimorar também outras skills importantes, como por exemplo, comunicação segura e feedbacks efetivos. Tenho também skills em outras áreas: -Criação e edição de vídeo, E-Commerce, Marketing, Ensino prático, dentre outras."
+  },
+  "language_es": {
+    "About Me": "Me llamo Marcelo, soy un FullStack Developer y emprendedor.\nEstoy involucrado con la programación desde los 15 años, es decir, 6 años como entusiasta y 3 años como profesional en el área.\nMi idioma nativo es portugués (Brasil), también hablo inglés, español y estoy aprendiendo ruso. Привет, мир!\nDecidí crear este sitio para compilar mis portafolios profesionales, proyectos personales y también hablar un poco sobre mí.\nAunque mi enfoque principal es la programación y el código, también me gusta mejorar otras habilidades importantes, como la comunicación segura y la retroalimentación efectiva. También tengo habilidades en otras áreas: creación y edición de videos, comercio electrónico, marketing, enseñanza práctica, entre otras."
+  },
+  "projects": {
+    "DBINPacking": {
+      "description": "Essa é a descrição",
+      "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/991px-Placeholder_view_vector.svg.png", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/991px-Placeholder_view_vector.svg.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlHI3BJiB7lkVxhKUKI8YxJoTrGDInnZI3gzhmvAZEGA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlHI3BJiB7lkVxhKUKI8YxJoTrGDInnZI3gzhmvAZEGA&s"],
+      "video": "uAZL9EUEPC0"
+    }
+  },
+  "projectsResumes": [
+    {
+      "title": "Drag & Drop Panel",
+      "tags": [
+        "Javascript",
+        "NodeJS"
+      ]
+    },
+    {
+      "title": "3D BIN Packing",
+      "tags": [
+        "Javascript",
+        "NodeJS"
+      ]
+    }
+  ]
+}

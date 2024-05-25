@@ -1,0 +1,5 @@
+export { default as About } from "Pages/About"
+export { default as Portfolio } from "Pages/Portfolio"
+export { default as Contact } from "Pages/Contact"
+export { default as Projects } from "Pages/Projects"
+export { default as PortfolioView } from "Pages/PortfolioView"
