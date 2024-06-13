@@ -1,17 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.37b4be1d.css",
-    "main.js": "/static/js/main.46c41681.js",
-    "static/media/teste.jpg": "/static/media/teste.c58d11b7a15b5c5649e4.jpg",
-    "static/media/Profile.jpg": "/static/media/Profile.8b094e92886f9bc69741.jpg",
+    "main.css": "/static/css/main.29d07d38.css",
+    "main.js": "/static/js/main.53ab1567.js",
+    "static/media/personalizedthemesforespecificsstoresbranchs.png": "/static/media/personalizedthemesforespecificsstoresbranchs.d2010c39bdda671b2698.png",
+    "static/media/dragdroppanel.png": "/static/media/dragdroppanel.506b111921d453134fb3.png",
+    "static/media/defaultthemes.png": "/static/media/defaultthemes.b044249be7bfe7fc1a14.png",
+    "static/media/Profile.jpg": "/static/media/Profile.7f8ddb1f8064f521a789.jpg",
+    "static/media/microfrontendfortemplatestheme.png": "/static/media/microfrontendfortemplatestheme.724cf0c921268ecdb303.png",
+    "static/media/webstorecontrolpanel.png": "/static/media/webstorecontrolpanel.ab13f80622949f0cf3b0.png",
+    "static/media/Webstore.png": "/static/media/Webstore.653f9c808c53252ece22.png",
+    "static/media/Whatsapp.png": "/static/media/Whatsapp.0989ae99fef1af2ea00a.png",
+    "static/media/LeetCode.png": "/static/media/LeetCode.c78fc082f2b4c496259f.png",
+    "static/media/magalumarketplaceintegration.png": "/static/media/magalumarketplaceintegration.d71472ab15cd847d8015.png",
+    "static/media/Outlook.png": "/static/media/Outlook.8ddb082858ee523f992e.png",
+    "static/media/carrefourmarketplaceintegration.jpg": "/static/media/carrefourmarketplaceintegration.5732d77b0412b5cbae78.jpg",
     "static/media/US.webp": "/static/media/US.416b8376fd9bd07e5b45.webp",
+    "static/media/Linkedin.png": "/static/media/Linkedin.df3f373c358bcfdd92bb.png",
+    "static/media/mercadolivremarketplaceintegration.png": "/static/media/mercadolivremarketplaceintegration.2abd9025e25c06340f0d.png",
+    "static/media/Logo.png": "/static/media/Logo.f5a9b5fc2797a745ceda.png",
+    "static/media/ES.webp": "/static/media/ES.8e8949ec684114969083.webp",
     "static/media/BR.webp": "/static/media/BR.0dd49a4811e7658e7035.webp",
     "index.html": "/index.html",
-    "main.37b4be1d.css.map": "/static/css/main.37b4be1d.css.map",
-    "main.46c41681.js.map": "/static/js/main.46c41681.js.map"
+    "main.29d07d38.css.map": "/static/css/main.29d07d38.css.map",
+    "main.53ab1567.js.map": "/static/js/main.53ab1567.js.map"
   },
   "entrypoints": [
-    "static/css/main.37b4be1d.css",
-    "static/js/main.46c41681.js"
+    "static/css/main.29d07d38.css",
+    "static/js/main.53ab1567.js"
   ]
 }

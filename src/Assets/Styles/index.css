@@ -3,12 +3,32 @@
    License: none (public domain)
 */
 :root {
-	--main: #E1F0DA;
+	/* --main: #E1F0DA;
 	--second: #D4E7C5;
 	--third: #BFD8AF;
 	--fourth: #99BC85; 
 	--text: #0F0F0F;
 	--shadow: #272727;
+	--sb-track-color: #0F0F0F;
+  --sb-thumb-color: #272727;
+  --sb-size: 20px; */
+	/* --main: #292929;
+	--second: #3C4042;
+	--third: #606368;
+	--fourth: #6200EE;
+	--text: #FFFFFF;
+	--text-second: #0F0F0F;
+	--shadow: #F3F3F3;
+	--sb-track-color: #0F0F0F;
+  --sb-thumb-color: #272727;
+  --sb-size: 20px; */
+	--main: #191919;
+	--second: #292929;
+	--third: #3C4042;
+	--fourth: #6200EE;
+	--text: #FFFFFF;
+	--text-second: #0F0F0F;
+	--shadow: #F3F3F3;
 	--sb-track-color: #0F0F0F;
   --sb-thumb-color: #272727;
   --sb-size: 20px;
@@ -69,6 +89,33 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1rem;
+}
+
+#root, body {
+	overflow: hidden;
+}
+
+@keyframes rgb {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
+
+.rgb-bg, .rgb-bg::before {
+	animation: rgb 6s linear infinite;
+	background: linear-gradient(45deg,
+  #ff0000 0%, 
+  #ff9a00 10%,
+  #d0de21 20%,
+  #4fdc4a 30%, 
+  #3fdad8 40%,
+  #2fc9e2 50%, 
+  #1c7fee 60%, 
+  #5f15f2 70%, 
+  #ba0cf8 80%, 
+  #fb07d9 90%, 
+  #ff0000 100%  )
+  repeat 0% 0% / 300% 100%;
 }
 
 ::-webkit-scrollbar {

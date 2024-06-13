@@ -1,13 +1,13 @@
 import BR from 'Assets/Images/Flags/BR.webp';
 import US from 'Assets/Images/Flags/US.webp';
 import ES from 'Assets/Images/Flags/ES.webp';
-import RU from 'Assets/Images/Flags/RU.webp';
 import styled from 'styled-components';
 import { useLanguage } from 'Contexts/LanguageContext';
 
 const FlagsContainer = styled.div`
   display: flex;
   align-items: center;
+  justify-self: flex-end;
   gap: 10px;
 
   img {
@@ -16,10 +16,6 @@ const FlagsContainer = styled.div`
     width: 35px;
     height: fit-content;
     transition: transform 250ms ease;
-
-    &.active {
-      transform: translateY(100%);
-    }
   }
 
   img.active {

@@ -11,35 +11,52 @@ const SkillsContainer = styled.div`
   border-bottom: 1px solid var(--fourth);
   padding-bottom: 10px;
   user-select: none;
+  background: transparent;
 
   &::before {
     content: attr(data-role);
-    background: var(--fourth);
-    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 5px 10px;
     border-radius: 5px;
-    bottom: 100%;
+    box-shadow: 2px 2px 4px var(--second);
   }
 
   span {
     background: var(--second);
     padding: 5px 10px;
     border-radius: 5px;
-    border: 1px solid black;
-  }
+    border: 1px solid var(--third);
+    display: flex;
+    align-items: center;
+}
 `;
 
 const MainContainer = styled.div`
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 15px;
+  height: 100%;
+  
+  @media only screen and (max-width: 993px) {
+    padding: 20px;
+    height: auto;
+  }
 `;
+
+const PictureContainer = styled.div`
+  width: fit-content;
+  height: fit-content;
+  max-width: 100%;
+  height: 350px;
+  display: flex;
+`
 
 const AboutMeContainer = styled.div`
   display: flex;
-  justify-content: ;
   align-items: flex-start;
   gap: 20px;
   margin-bottom: 15px;
@@ -51,11 +68,15 @@ const AboutMeContainer = styled.div`
   }
 
   img {
-    width: fit-content;
-    height: fit-content;
-    max-width: 100%;
-    max-height: 350px;
-    box-shadow: 2px 2px 10px var(--shadow);
+    opacity: .85;
+    width: auto;
+    height: 100%;
+  }
+
+  @media only screen and (max-width: 769px) { 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
@@ -64,8 +85,10 @@ const About = () => {
 
   return (
     <MainContainer>
-      <AboutMeContainer className='container'>
-        <img src={Profile} alt="" />
+      <AboutMeContainer>
+        <PictureContainer className='rgb-bg'>
+          <img src={Profile} alt="" />
+        </PictureContainer>
         <div>
           {
             texts['About Me']
@@ -75,7 +98,7 @@ const About = () => {
         </div>
       </AboutMeContainer>
 
-      <SkillsContainer data-role="Back-end"> 
+      <SkillsContainer className='rgb-bg' data-role="Back-end"> 
         <span>Node.js</span>
         <span>Puppeteer.js</span>
         <span>Express.js</span>
@@ -91,7 +114,7 @@ const About = () => {
         <span>NPM & YARN</span>
       </SkillsContainer>
 
-      <SkillsContainer data-role="Front-end"> 
+      <SkillsContainer className='rgb-bg' data-role="Front-end"> 
         <span>Electron.js</span>
         <span>React.js</span>
         <span>Redux</span>
@@ -107,7 +130,7 @@ const About = () => {
         <span>Jquery</span>
       </SkillsContainer>
 
-      <SkillsContainer data-role="Database"> 
+      <SkillsContainer className='rgb-bg' data-role="Database"> 
         <span>mySQL</span>
         <span>PostgreSQL</span>
         <span>Prisma</span>
@@ -115,7 +138,7 @@ const About = () => {
         <span>TypeORM</span>
       </SkillsContainer>
 
-      <SkillsContainer data-role="Design UI|UX">
+      <SkillsContainer className='rgb-bg' data-role="Design UI|UX">
         <span>Photoshop CS6</span>
         <span>Figma</span>
         <span>Miro</span>

@@ -1,33 +1,193 @@
 {
   "language_en": {
-    "About Me": "My name is Marcelo, I am a FullStack developer and entrepreneur.\nI have been involved with programming since I was 15 years old, that is, 6 years as an enthusiast and 3 years as a professional in the field.\nMy native language is Portuguese (Brazil), I also speak English, Spanish, and I am learning Russian. Привет, мир!\nI decided to create this website to compile my professional portfolios, personal projects, and also to talk a little about myself.\nAlthough my focus is on programming and coding, I also like to improve other important skills, such as secure communication and effective feedback. I also have skills in other areas: Video Editing and Creation, E-Commerce, Marketing, Practical Teaching, among others."
-  },
-  "language_pt": {
-    "About Me": "Meu nome é Marcelo, sou desenvolvedor FullStack e empreendedor.\nEu estou envolvido com programação desde os 15 anos, isto é, 6 anos como entusiasta e 3 anos como profissional na área.\nMeu idioma nativo é Português (Brasil), sei falar também Inglês, Espanhol e estou aprendendo Russo. Привет, мир!\nDecidi criar este site para compilar meus portfólios profissionais, projetos pessoais e também falar um pouco sobre mim.\nApesar do meu foco ser em programação é código, gosto de aprimorar também outras skills importantes, como por exemplo, comunicação segura e feedbacks efetivos. Tenho também skills em outras áreas: -Criação e edição de vídeo, E-Commerce, Marketing, Ensino prático, dentre outras."
-  },
-  "language_es": {
-    "About Me": "Me llamo Marcelo, soy un FullStack Developer y emprendedor.\nEstoy involucrado con la programación desde los 15 años, es decir, 6 años como entusiasta y 3 años como profesional en el área.\nMi idioma nativo es portugués (Brasil), también hablo inglés, español y estoy aprendiendo ruso. Привет, мир!\nDecidí crear este sitio para compilar mis portafolios profesionales, proyectos personales y también hablar un poco sobre mí.\nAunque mi enfoque principal es la programación y el código, también me gusta mejorar otras habilidades importantes, como la comunicación segura y la retroalimentación efectiva. También tengo habilidades en otras áreas: creación y edición de videos, comercio electrónico, marketing, enseñanza práctica, entre otras."
-  },
-  "projects": {
-    "DBINPacking": {
-      "description": "Essa é a descrição",
-      "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/991px-Placeholder_view_vector.svg.png", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/991px-Placeholder_view_vector.svg.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlHI3BJiB7lkVxhKUKI8YxJoTrGDInnZI3gzhmvAZEGA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlHI3BJiB7lkVxhKUKI8YxJoTrGDInnZI3gzhmvAZEGA&s"],
-      "video": "uAZL9EUEPC0"
+    "About Me": "My name is Marcelo, I am a FullStack developer and entrepreneur.\nI have been involved with programming since I was 15 years old, that is, 6 years as an enthusiast and 3 years as a professional in the field.\nMy native language is Portuguese (Brazil), I also speak English, Spanish, and I am learning Russian. Привет, мир!\nI decided to create this website to compile my professional portfolios, personal projects, and also to talk a little about myself.\nAlthough my focus is on programming and coding, I also like to improve other important skills, such as secure communication and effective feedback. I also have skills in other areas: Video Editing and Creation, E-Commerce, Marketing, Practical Teaching, among others.\nI am open to proposals.",
+    "portfolioResumes": {
+      "Drag & Drop Panel": "An editing panel for e-commerce store templates, where it is possible to select, move, delete, and drag new sections.\nText values, colors, and font styles, such as size and type, are also editable.\nColors and styles of previously created elements are also editable.\nIt is worth mentioning that this panel, in addition to allowing an infinite number of pre-created template designs, also allows the creation of new themes and templates as it is dynamically generated based on both editable HTML and CSS code by a developer and a configuration preferences JSON.",
+      "Micro-Frontend For Templates Theme": "In this project, various components were created that together form a template for an online store that can be used to create themed stores.\nEach of these components can be edited, removed, or added in each of the templates, thus generating an infinite number of possibilities for a merchant or several.\nThis project aims to facilitate the editing of a template both for a DEV and the editing of a theme (a customized template) for an end customer (layperson) through the Drag&Drop Editor.",
+      "Webstore Control Panel": "This panel is not just an interface and a HUD created in ReactJS.\nIt is also a primary library for CTA elements and information input.\nThe library is created exclusively for the Webstore, where each element is editable individually or by group.",
+      "Crawler Panel": "The Webstore Crawler aims to capture products from online stores across the internet, primarily from stores that use the Google dataLayer to integrate with Google MarketPlace.\nThe Crawler has an interface made in Electron.js and communicates with an internal API that uses the Puppeteer library to scrape (data search) all the products of the store in question, based on the chosen template.",
+      "Business Page": "Visual reports and charts page based on sales data.\nThe interesting aspect of this project is the ability to filter the visible data by date presets (1 week ago, 1 day ago, 1 month ago, etc.) or choose a custom time range.",
+      "3D Bin Packing": "Node.js project used for freight calculation.\nCompartments and items are defined as parameters for a 3D visualization function.\nThe purpose of this API is to select the smallest possible compartment for a set of items, taking into account the sum of volumes and possible angles for the set.\nFor example: A 110cm long board, despite being longer than a 100cm box, would fit inside it if positioned diagonally.",
+      "RestAPI For Images Donwload and Treat": "API used to retrieve any type of image via link, process it in various ways, and generate a final optimized version of the photo along with its respective thumbnail.",
+      "Americanas MarketPlace Integration": "System integration between the Webstore and the Americanas Marketplace.",
+      "Omie Erp Integration": "System integration between the Webstore and the Omie Erp.",
+      "Mercado Livre MarketPlace Integration": "System integration between the Webstore and the Mercado Livre Marketplace.",
+      "NetShoes MarketPlace Integration": "System integration between the Webstore and the NetShoes Marketplace.",
+      "Carrefour MarketPlace Integration": "System integration between the Webstore and the Carrefour Marketplace.",
+      "Dafiti MarketPlace Integration": "System integration between the Webstore and the Dafiti Marketplace.",
+      "Magalu MarketPlace Integration": "System integration between the Webstore and the Magalu Marketplace."
     }
   },
-  "projectsResumes": [
+  "language_pt": {
+    "About Me": "Meu nome é Marcelo, sou desenvolvedor FullStack e empreendedor.\nEu estou envolvido com programação desde os 15 anos, isto é, 6 anos como entusiasta e 3 anos como profissional na área.\nMeu idioma nativo é Português (Brasil), sei falar também Inglês, Espanhol e estou aprendendo Russo. Привет, мир!\nDecidi criar este site para compilar meus portfólios profissionais, projetos pessoais e também falar um pouco sobre mim.\nApesar do meu foco ser em programação e código, gosto de aprimorar também outras skills importantes, como por exemplo, comunicação segura e feedbacks efetivos. Tenho também skills em outras áreas: -Criação e edição de vídeo, E-Commerce, Marketing, Ensino prático, dentre outras.\nEstou aberto a propostas.",
+    "portfolioResumes": {
+      "Drag & Drop Panel": "Um painel de edição de templates para lojas virtuais, onde é possível selecionar, mover, deletar e arrastar novas seções.\nTambém são editáveis valores de texto, cores e estilos de fonte, tal como tamanho e tipo. São editáveis também cores e estilos de elementos previamente criados.\nVale mencionar que este painel além possibilitar uma infinidade de criações de templates pré-criados, também possibilita a criação de novos temas e templates tendo em vista que ele é gerado dinamicamente baseado tanto em código HTML e CSS que pode ser editado por um desenvolvedor como um JSON de configuração de preferências.",
+      "Micro-Frontend For Templates Theme": "Neste projeto foram criados vários componentes que juntos formam um template para loja virtual que podem ser usados para a criação de lojas tematizadas.\nCada um destes componentes podem ser editados, removidos ou adicionados em cada um dos templates, gerando assim uma infinidade de possibilidades para um lojista ou vários.\nEste projeto visa facilitar a edição de um template tanto para um DEV, quanto a edição de um tema (um template customizado) para um cliente final (leigo), através do *Editor Drag&Drop*",
+      "Webstore Control Panel": "Este painel não é apenas uma interface e um HUD criado em ReactJS ele também um é uma biblioteca primária para elementos de CTA e Input de informações.\nBiblioteca criada exclusivamente para a Webstore onde cada elemento é editável únicamente ou por grupo.",
+      "Crawler Panel": "O Crawler da Webstore tem o propósito de capturar produtos de lojas virtuais pela internet, principalmente em lojas que tenham o dataLayer do google sendo usado para integrar a loja ao Google MarketPlace. O Crawler tem uma interface feita em Electron.js e faz a comunicação com uma API interna que utiliza a biblioteca do Puppeteer para fazer o scrapping (Busca de dados) de todos os produtos da loja em questão, baseando-se no template escolhido.",
+      "Business Page": "Página de relatórios e gráficos visuais com base em dados sobre venda.\nO interessante deste projeto é a possibilidade de filtrar os dados visíveis por presets de datas (1 semana atrás, 1 dia atrás, 1 mês atrás etc...) ou escolher um intervalo de tempo customizado.",
+      "3D Bin Packing": "Projeto em Node.js utilizado no cálculo de fretes.\nSão definidos compartimentos e itens usados como parâmetros para uma função de visualização 3D. O propósito desta API é selecionar o menor compartimento possível possível para um conjunto de itens, levando em consideração a somatória dos volumes e ângulos possíveis para o conjunto.\nPor exemplo: Uma prancha de comprimento 110cm apesar de ser maior que uma caixa de 100cm caberia nela caso fosse posicionada na diagonal.",
+      "RestAPI For Images Donwload and Treat": "API usada para recuperar qualquer tipo de imagem via link, fazer a sua tratativa de várias formas e gerar uma versão final da foto otimizada quanto sua respectiva thumbnail.",
+      "Americanas MarketPlace Integration": "Integração de Sistema entre a Webstore e o Marketplace Americanas.",
+      "Omie Erp Integration": "Integração de Sistema entre a Webstore e o Erp Omie.",
+      "Mercado Livre MarketPlace Integration": "Integração de Sistema entre a Webstore e o Marketplace Mercado Livre.",
+      "NetShoes MarketPlace Integration": "Integração de Sistema entre a Webstore e o Marketplace NetShoes.",
+      "Carrefour MarketPlace Integration": "Integração de Sistema entre a Webstore e o Marketplace Carrefour.",
+      "Dafiti MarketPlace Integration": "Integração de Sistema entre a Webstore e o Marketplace Dafiti.",
+      "Magalu MarketPlace Integration": "Integração de Sistema entre a Webstore e o Marketplace Magalu."
+    }
+  },
+  "language_es": {
+    "About Me": "Me llamo Marcelo, soy un FullStack Developer y emprendedor.\nEstoy involucrado con la programación desde los 15 años, es decir, 6 años como entusiasta y 3 años como profesional en el área.\nMi idioma nativo es portugués (Brasil), también hablo inglés, español y estoy aprendiendo ruso. Привет, мир!\nDecidí crear este sitio para compilar mis portafolios profesionales, proyectos personales y también hablar un poco sobre mí.\nAunque mi enfoque principal es la programación y el código, también me gusta mejorar otras habilidades importantes, como la comunicación segura y la retroalimentación efectiva. También tengo habilidades en otras áreas: creación y edición de videos, comercio electrónico, marketing, enseñanza práctica, entre otras.\nEstoy abierto a propuestas.",
+    "portfolioResumes": {
+      "Drag & Drop Panel": "Un panel de edición de plantillas para tiendas virtuales, donde es posible seleccionar, mover, eliminar y arrastrar nuevas secciones.\nTambién son editables los valores de texto, colores y estilos de fuente, como el tamaño y el tipo.\nTambién son editables los colores y estilos de elementos previamente creados.\nVale mencionar que este panel, además de permitir una infinidad de creaciones de plantillas precreadas, también permite la creación de nuevos temas y plantillas, ya que se genera dinámicamente basado tanto en código HTML y CSS editable por un desarrollador como en un JSON de configuración de preferencias.",
+      "Micro-Frontend For Templates Theme": "En este proyecto, se crearon varios componentes que juntos forman una plantilla para una tienda en línea que se puede usar para crear tiendas temáticas.\nCada uno de estos componentes se puede editar, eliminar o agregar en cada una de las plantillas, generando así una infinidad de posibilidades para un comerciante o varios.\nEste proyecto tiene como objetivo facilitar la edición de una plantilla tanto para un desarrollador (DEV) como la edición de un tema (una plantilla personalizada) para un cliente final (profano) a través del Editor Drag&Drop.",
+      "Webstore Control Panel": "Este panel no es solo una interfaz y un HUD creado en ReactJS.\nTambién es una biblioteca primaria para elementos de CTA e ingreso de información.\nLa biblioteca está creada exclusivamente para la Webstore, donde cada elemento es editable individualmente o por grupo.",
+      "Crawler Panel": "El Crawler de Webstore tiene el propósito de capturar productos de tiendas virtuales por internet, principalmente en tiendas que usan el dataLayer de Google para integrarse con Google MarketPlace.\nEl Crawler tiene una interfaz hecha en Electron.js y se comunica con una API interna que utiliza la biblioteca de Puppeteer para hacer el scrapping (búsqueda de datos) de todos los productos de la tienda en cuestión, basándose en la plantilla elegida.",
+      "Business Page": "Página de informes visuales y gráficos basada en datos de ventas.\nLo interesante de este proyecto es la posibilidad de filtrar los datos visibles por preajustes de fechas (hace 1 semana, hace 1 día, hace 1 mes, etc.) o elegir un rango de tiempo personalizado.",
+      "3D Bin Packing": "Proyecto en Node.js utilizado en el cálculo de fletes.\nSe definen compartimentos y artículos como parámetros para una función de visualización 3D.\nEl propósito de esta API es seleccionar el compartimento más pequeño posible para un conjunto de artículos, teniendo en cuenta la suma de volúmenes y los ángulos posibles para el conjunto.\nPor ejemplo: Una tabla de 110cm de largo, a pesar de ser más larga que una caja de 100cm, cabría en ella si se coloca en diagonal.",
+      "RestAPI For Images Donwload and Treat": "API utilizada para recuperar cualquier tipo de imagen a través de un enlace, procesarla de varias maneras y generar una versión final optimizada de la foto junto con su miniatura respectiva.",
+      "Americanas MarketPlace Integration": "Integración de sistema entre la Webstore y el Marketplace de Americanas.",
+      "Omie Erp Integration": "Integración de sistema entre la Webstore y el Erp de Omie.",
+      "Mercado Livre MarketPlace Integration": "Integración de sistema entre la Webstore y el Marketplace de Mercado Livre.",
+      "NetShoes MarketPlace Integration": "Integración de sistema entre la Webstore y el Marketplace de NetShoes.",
+      "Carrefour MarketPlace Integration": "Integración de sistema entre la Webstore y el Marketplace de Carrefour.",
+      "Dafiti MarketPlace Integration": "Integración de sistema entre la Webstore y el Marketplace de Dafiti.",
+      "Magalu MarketPlace Integration": "Integración de sistema entre la Webstore y el Marketplace de Magalu."
+    }
+  },
+  "portfolioResumes": [
     {
       "title": "Drag & Drop Panel",
       "tags": [
-        "Javascript",
+        "NodeJS",
+        "JS",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Micro-Frontend For Templates Theme",
+      "tags": [
+        "NodeJS",
+        "JS",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Webstore Control Panel",
+      "tags": [
+        "ReactJS",
+        "Typescript",
+        "Framer-Motion",
+        "SCSS"
+      ]
+    },
+    {
+      "title": "Crawler Panel",
+      "tags": [
+        "ElectronJS",
+        "PuppeteerJS",
         "NodeJS"
       ]
     },
     {
-      "title": "3D BIN Packing",
+      "title": "RestAPI For Images Donwload and Treat",
       "tags": [
-        "Javascript",
-        "NodeJS"
+        "NodeJS",
+        "SharpJS",
+        "ExpressJS"
+      ]
+    },
+    {
+      "title": "Business Page",
+      "tags": [
+        "ChartJS",
+        "JS",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "6 Default Themes",
+      "tags": [
+        "Webstore-LIB",
+        "JS",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "10 Personalized Themes For Especifics Stores/Branchs",
+      "tags": [
+        "Webstore-LIB",
+        "JS",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "3D Bin Packing",
+      "tags": [
+        "NodeJS",
+        "Typescript"
+      ]
+    },
+    {
+      "title": "Americanas MarketPlace Integration",
+      "tags": [
+        "NodeJS",
+        "API RESTful",
+        "Typescript"
+      ]
+    },
+    {
+      "title": "Omie Erp Integration",
+      "tags": [
+        "NodeJS",
+        "API RESTful",
+        "Typescript"
+      ]
+    },
+    {
+      "title": "Mercado Livre MarketPlace Integration",
+      "tags": [
+        "NodeJS",
+        "API RESTful",
+        "Typescript"
+      ]
+    },
+    {
+      "title": "NetShoes MarketPlace Integration",
+      "tags": [
+        "NodeJS",
+        "API RESTful",
+        "Typescript"
+      ]
+    },
+    {
+      "title": "Carrefour MarketPlace Integration",
+      "tags": [
+        "NodeJS",
+        "API RESTful",
+        "Typescript"
+      ]
+    },
+    {
+      "title": "Dafiti MarketPlace Integration",
+      "tags": [
+        "NodeJS",
+        "API RESTful",
+        "Typescript"
+      ]
+    },
+    {
+      "title": "Magalu MarketPlace Integration",
+      "tags": [
+        "NodeJS",
+        "API RESTful",
+        "Typescript"
       ]
     }
   ]
